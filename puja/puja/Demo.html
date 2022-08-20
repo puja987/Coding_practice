@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Demo</title>
+        <style>
+            *{
+               margin:0px;
+               padding:0px; 
+            }
+            .container{
+                border:2px solid red;
+                margin:3px 0;
+                background:burlywood;
+                padding:9px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hii....</h1>
+        <div class="container">
+        <button id="click me">Click meeee....</button>
+        <!-- <p>this is my area</p> -->
+        </div>
+        <div class="container">
+            <p>this is my area</p>
+            </div>
+
+    </body>
+    <script>
+        console.log("hello.......");
+        console.warn("warning..");
+        console.error("error...")
+        alert("danger...XXX")
+        let elem=document.getElementById("container")
+        console.log(elem);
+        let eleclass=document.getElementsByClassName("container")
+        console.log(eleclass);
+        eleclass[0].style.background="pink";
+        let elem=document.getElementById('click');
+        console.log(elem);
+        
+    </script>
+</html> 
